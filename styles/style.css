@@ -61,9 +61,6 @@ ol {
   width: 1140px;
 }
 
-.result {
-  
-}
 .result__video-container {
   position: relative;
   width: 711px;
@@ -105,9 +102,6 @@ ol {
   display: flex;
   flex-direction: column ;
   gap: 30px;
-}
-
-.content__list-item {
 }
 
 .content__video-card {
