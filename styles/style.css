@@ -92,15 +92,15 @@ ol {
 
 .content__list-container {
   position: relative;
-    overflow-y: auto;
-   display: flex;
-  gap: 30px; 
+  overflow-y: auto;
+  display: flex;
+  gap: 30px;
   flex-direction: column;
 }
 
 .content__list {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -124,7 +124,7 @@ ol {
 /* стили текстов */
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -132,10 +132,9 @@ ol {
 }
 
 .title {
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
-  font-style: bold;
   line-height: 94%;
   text-transform: uppercase;
 }
@@ -145,26 +144,25 @@ ol {
 }
 
 .content__card-link {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .content__video-card-title {
-font-family: Oswald, sans-serif;
-font-size: 30px;
-font-weight: 700;
-font-style: bold;
- line-height: 100%;
- text-transform: uppercase;
- overflow:hidden;
- max-width: 196px;
- white-space: nowrap;
-text-overflow:ellipsis;
-padding-bottom: 6px;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+  overflow: hidden;
+  max-width: 196px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-bottom: 6px;
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 0.9;
@@ -172,7 +170,7 @@ padding-bottom: 6px;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   max-width: 196px;
-  text-overflow:ellipsis;
+  text-overflow: ellipsis;
   overflow: hidden;
 }
 
@@ -189,9 +187,8 @@ padding-bottom: 6px;
 }
 
 .search-form__checkbox-list {
-  
   display: flex;
-  gap: 15px; 
+  gap: 15px;
 }
 
 .search-form__fieldset {
@@ -212,26 +209,26 @@ padding-bottom: 6px;
   width: 225px;
   height: 27px;
   background-color: transparent;
-  border-top: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
   border-left: none;
   border-right: none;
   color: #fff;
 }
 
 .search-form__textfield::placeholder {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: rgb(255 255 255 / 0.7);
 }
 
 .search-form__textfield:focus-visible {
-  outline:none;
+  outline: none;
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #FFFFFF;
+  outline: 1px solid #ffffff;
 }
 
 /* чекбокс */
@@ -239,14 +236,14 @@ padding-bottom: 6px;
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   padding: 1px;
 }
 
 .search-form__pseudo-checkbox::after {
-  content:'';
+  content: "";
   display: block;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -265,18 +262,18 @@ padding-bottom: 6px;
 
 .button {
   background-color: transparent;
-  border: 1px solid #FFFFFF;
-  font-family: Fira Sans Condensed, sans-serif;
+  border: 1px solid #ffffff;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .search-form__submit-button {
- width: 194px;
- height: 34px; 
- align-self: end;
+  width: 194px;
+  height: 34px;
+  align-self: end;
 }
 
 .more-button {
@@ -294,12 +291,12 @@ padding-bottom: 6px;
   background-color: #545050;
 }
 
-.button:focus{
+.button:focus {
   appearance: none;
-
 }
+
 .button:focus-visible {
-  outline: 1px solid #FFFFFF;
+  outline: 1px solid #ffffff;
 }
 
 /*состояния карточек */
@@ -326,7 +323,7 @@ padding-bottom: 6px;
 }
 
 .content__card-link:focus-visible {
-  outline: 1px solid #FFFFFF;
+  outline: 1px solid #ffffff;
 }
 
 .content__list-item {
